@@ -8,7 +8,7 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
       }}
-    >
+    > 
       <Text>hi</Text>
     </View>
   );

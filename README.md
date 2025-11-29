@@ -1,50 +1,83 @@
-# Welcome to your Expo app 👋
+# 🛍️ React Native Shopping App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, feature-rich shopping application built with React Native and Expo, showcasing advanced mobile development techniques and smooth user interactions.
 
-## Get started
+## 📱 Demo
 
-1. Install dependencies
+<video controls src="assets/internshipTaskVideo (1).mp4" title="Title"></video>
+https://github.com/Daya3611/ReactNativeApp-IntershipTask/blob/main/assets/internshipTaskVideo%20(1).mp4
+## 📥 Download
 
-   ```bash
-   npm install
-   ```
+https://expo.dev/accounts/daya3611/projects/newApp2/builds/363214f8-2e3c-49f3-86eb-d62ebc69c518
 
-2. Start the app
+## ✨ Features
 
-   ```bash
-   npx expo start
-   ```
+### 🏠 Product Feed
+- **Real-time Product Listings**: Fetches products from a public API with beautiful card-based display
+- **Smart Prime Badge**: Automatically calculates and displays Prime eligibility based on product ratings
+- **Dynamic Pricing**: Shows arbitrary pricing with attractive discount indicators
+- **Swipe to Delete**: Intuitive swipe gestures to remove unwanted products from your feed
+- **Premium UI Design**: Modern glassmorphism effects, smooth gradients, and vibrant colors
 
-In the output, you'll find options to open the app in a
+### 💾 Saved Items
+- **Persistent Storage**: Save your favorite products with AsyncStorage
+- **Offline Access**: Access saved items even without internet connection
+- **Quick Management**: Easily remove items from your saved collection
+- **Real-time Sync**: Global state management ensures instant updates across screens
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🔍 Product Details
+- **Comprehensive Information**: View detailed product descriptions, ratings, and pricing
+- **Beautiful Transitions**: Smooth navigation with shared element animations
+- **Rich Media Display**: High-quality product images with optimized loading
+- **Category Tags**: Organized display of product categories and classifications
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🎨 Custom Animations
+- **Creative Spark Effect**: Unique floating animation with interactive particle effects
+- **Smooth Transitions**: Fluid navigation between screens and states
+- **Loading States**: Elegant loading indicators for better user experience
+- **Gesture Animations**: Responsive swipe and tap animations using Reanimated
 
-## Get a fresh project
+## 🛠️ Technical Stack
 
-When you're ready, run:
+- **Framework**: React Native with Expo
+- **Navigation**: Expo Router (File-based routing)
+- **Styling**: NativeWind (TailwindCSS for React Native)
+- **Animations**: React Native Reanimated & Gesture Handler
+- **State Management**: React Hooks with AsyncStorage
+- **API Integration**: FakeStore API for product data
+- **Language**: TypeScript for type safety
+
+## 📋 Prerequisites
+
+Before running this app, make sure you have:
+
+- Node.js (v14 or newer)
+- npm or yarn
+- Expo CLI
+- iOS Simulator (Mac only) or Android Emulator
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/Daya3611/ReactNativeApp-IntershipTask
+cd newApp2
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Install Dependencies
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. Start the Development Server
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
 
-Join our community of developers creating universal apps.
+- GitHub: [@Daya3611](https://github.com/Daya3611)
+- Repository: [ReactNativeApp-IntershipTask](https://github.com/Daya3611/ReactNativeApp-IntershipTask)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
