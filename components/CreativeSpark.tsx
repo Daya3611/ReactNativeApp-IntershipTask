@@ -60,7 +60,7 @@ export default function CreativeSpark() {
             withSpring(1)
         );
 
-        // Reset active state after animation
+        
         setTimeout(() => setActive(false), 1000);
     };
 
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
         width: 56,
         height: 56,
         borderRadius: 28,
-        backgroundColor: '#8B5CF6', // Violet
+        backgroundColor: '#8B5CF6', 
         alignItems: 'center',
         justifyContent: 'center',
         shadowColor: '#8B5CF6',
@@ -112,6 +112,6 @@ const styles = StyleSheet.create({
         width: 8,
         height: 8,
         borderRadius: 4,
-        backgroundColor: '#F472B6', // Pink
+        backgroundColor: '#F472B6', 
     },
 });

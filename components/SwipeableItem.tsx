@@ -49,7 +49,7 @@ export default function SwipeableItem({ children, onDelete }: SwipeableItemProps
         return {
             height: itemHeight.value,
             opacity: opacity.value,
-            marginBottom: itemHeight.value === 0 ? 0 : 16, // Adjust margin as needed
+            marginBottom: itemHeight.value === 0 ? 0 : 16, 
         };
     });
 
